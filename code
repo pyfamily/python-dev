@@ -39,3 +39,26 @@ print("shraddha")
 #
 #print fiblist
 ####### Fibonacci list ends here ############################
+
+
+####$$$$$$$$$$$$$$$$ Loop through a given list and find out what 2 numbers make the sum needed $$$$$$$$$$$$$$.
+sumlookingfor = raw_input("what is the sum you are looking for\n")
+mylist=[1,2,3,4]
+breaker="false"
+for i in mylist:
+        #print("The i loopi-- ",i)
+        for j in mylist:
+        #       print ("The j loop ---",j,"---",i)
+                if i+j == int(sumlookingfor):
+                        print("This is it")
+                        print(i)
+                        print(j)
+                        breaker="true"
+                        break
+                if breaker=="true":
+                        break
+##### $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
