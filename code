@@ -27,3 +27,15 @@ print("shraddha")
 #                filevar.write(i)
 #                filevar.write("\n")
 # @@@@@@@@@@@@@ File operations ends here @@@@@@@@@@@@@@@@@@@@@@
+
+########## Fibonacci list of numbers ###########################
+#fiblist=[0,1]
+#for i in range(1,9):
+#       print(i)
+#       print 1000 , fiblist[i-1],fiblist[i-2]
+#       j=fiblist[i] + fiblist[i-1]
+#       print j
+#       fiblist.append(j)
+#
+#print fiblist
+####### Fibonacci list ends here ############################
